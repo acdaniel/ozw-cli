@@ -21,7 +21,7 @@
     "vorpal-rc": "^1.1.0",
     "wildcard": "^1.1.2"
   },
-  "description": "'An interactive command line interface for open-zwave'",
+  "description": "An interactive command line interface for open-zwave",
   "devDependencies": {},
   "directories": {},
   "license": "ISC",
@@ -38,5 +38,5 @@
     "start": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.2.0"
+  "version": "0.2.1"
 }
