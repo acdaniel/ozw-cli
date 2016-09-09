@@ -1,0 +1,48 @@
+OZW-CLI TODO
+——
+x record start
+x record stop [file]
+
+x controller reset [type]
+controller desc
+
+x node desc [id]
+x node list
+? node select
+? node add [security]
+? node remove
+x node value [id] [cmdclass] [instance] [index]
+x node value [id] [cmdclass] [instance] [index] [value]
+x node loc [id]
+x node loc [id] [loc]
+x node name [id]
+x node name [id] [name]
+node poll enable [id]
+node poll enable [id] [enabled]
+node poll interval [id]
+node poll interval [id] [interval]
+? node poll intensity [id]
+? node config values [id]
+? node config get [id] [paramId]
+? node config set [id] [paramId] [paramValue]
+x node watch [id]
+
+group count
+group label [nodeid] [group]
+group assoc get [nodeid] [group]
+group assoc max [nodeid] [group]
+group assoc add [nodeid] [group] [target]
+group assoc remove [nodeid] [group] [target]
+
+scene create [label]
+scene remove [id]
+scene list
+scene value add [sceneId] [nodeId] [cmdclass] [instance] [index]
+scene value remove [sceneId] [nodeId] [cmdclass] [instance] [index]
+scene value list [sceneId]
+scene activate [sceneId]
+
+network heal
+network heal [nodeId]
+network neighbors
+network refresh [nodeId]

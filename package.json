@@ -1,0 +1,42 @@
+{
+  "author": {
+    "name": "Adam Daniel",
+    "email": "adam@acdaniel.com"
+  },
+  "bin": {
+    "ozw": "bin/ozw"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "defaults": "^1.0.3",
+    "filter-keys": "^1.1.0",
+    "inquirer": "^1.1.3",
+    "openzwave-shared": "^1.2.0",
+    "pad": "^1.0.1",
+    "string-humanize": "^1.0.0",
+    "trim": "0.0.1",
+    "truncate": "^2.0.0",
+    "tty-table": "^2.1.0",
+    "vorpal": "^1.11.4",
+    "vorpal-rc": "^1.1.0",
+    "wildcard": "^1.1.2"
+  },
+  "description": "'An interactive command line interface for open-zwave'",
+  "devDependencies": {},
+  "directories": {},
+  "license": "ISC",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "acdaniel",
+      "email": "adam@acdaniel.com"
+    }
+  ],
+  "name": "ozw-cli",
+  "optionalDependencies": {},
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.0"
+}
