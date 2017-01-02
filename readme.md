@@ -2,6 +2,16 @@
 
 An interactive command line interface for open-zwave. Perfect for Raspberry Pi ZWave gateways.
 
+## Prerequisites
+
+This application depends on [openzwave-shared](https://www.npmjs.com/package/openzwave-shared) which has its own prerequisites that must be fulfilled before installing ozw-cli.
+
+## Installation
+
+```
+$ npm install ozw-cli -g
+```
+
 ## Usage
 
 ### Connect
